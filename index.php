@@ -6,6 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista Sintética de UFs</title>
+
+    <!-- Estilo da tabela -->
+    <style>
+    table {
+        border-collapse: collapse;
+        text-align: center;
+    }
+
+    /* tr {
+        border-left: 1px solid #000;
+    } */
+    </style>
     </head>
 
 <body>
@@ -446,4 +458,23 @@
           'Expectativa de Vida (2016)' => '73,4 anos'
         ]
     ];
+
+    //Criação da Tabela
+echo '<table border="1">';
+echo '<tr>
+        <th>Bandeira</th>
+        <th>Unidade Federativa</th>
+        <th>Abreviação</th>
+        <th>Sede de Governo</th>
+        <th>Área (km²)</th>
+        <th>População (2014)</th>
+        <th>Densidade (2005)</th>
+        <th>PIB (2015)</th>
+        <th>(% total) (2015)</th>
+        <th>PIB per capita (R$) (2015)</th>
+        <th>IDH (2010)</th>
+        <th>Alfabetização (2016)</th>
+        <th>Mortalidade Infantil (2016)</th>
+        <th>Expectativa de Vida (2016)</th>
+    </tr>';
 ?>
